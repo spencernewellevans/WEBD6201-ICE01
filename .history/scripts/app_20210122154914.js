@@ -31,8 +31,7 @@
         mainContent.appendChild(newParagraph);
         newParagraph.className = "fs-6";
 
-        let paragraphThree =  `<p class="fs-7 fw-bold">And this is the third paragraph</p>`;
-        mainContent.innerHTML = paragraphThree;
+        let paragraphThree =  `<p class="fs-7 fw-bold">And this is the third paragraph</p>`
     }
 
     window.addEventListener("load", Start);

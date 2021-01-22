@@ -20,19 +20,10 @@
         paragraphOneElement.textContent = paragraphOneText;
         paragraphOneElement.className = "fs-5"
 
-        // Step 1. create the element
+        // Step 1. document.createElement
         let newParagraph = document.createElement("p");
-        // Step 2. configure the element
         newParagraph.setAttribute("id","paragraphTwo");
         newParagraph.textContent = "...And this is paragraph two"
-        // Step 3. select parent element
-        let mainContent = document.getElementsByTagName("main")[0];
-        // Step 3. insert the element
-        mainContent.appendChild(newParagraph);
-        newParagraph.className = "fs-6";
-
-        let paragraphThree =  `<p class="fs-7 fw-bold">And this is the third paragraph</p>`;
-        mainContent.innerHTML = paragraphThree;
     }
 
     window.addEventListener("load", Start);

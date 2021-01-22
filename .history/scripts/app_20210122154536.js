@@ -29,10 +29,6 @@
         let mainContent = document.getElementsByTagName("main")[0];
         // Step 3. insert the element
         mainContent.appendChild(newParagraph);
-        newParagraph.className = "fs-6";
-
-        let paragraphThree =  `<p class="fs-7 fw-bold">And this is the third paragraph</p>`;
-        mainContent.innerHTML = paragraphThree;
     }
 
     window.addEventListener("load", Start);
