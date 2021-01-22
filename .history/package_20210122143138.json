@@ -1,0 +1,9 @@
+{
+  "name": "webd6201-ice01",
+  "version": "demo site for ice01",
+  "description": "site for ice01",
+  "main": "app.js",
+  "repository": "https://github.com/spencernewellevans/WEBD6201-ICE01.git",
+  "author": "<spencernewellevans>",
+  "license": "MIT"
+}
