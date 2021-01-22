@@ -19,8 +19,7 @@
 
         paragraphOneElement.textContent = paragraphOneText;
         paragraphOneElement.className = "fs-5"
-        
-        // CREATION
+
         // Step 1. create the element
         let newParagraph = document.createElement("p");
         // Step 2. configure the element
@@ -37,25 +36,17 @@
         paragraphDiv.innerHTML = paragraphThree;
     
         // INSERTION
-        // insertion before a node example
+        // insertion before a node
         //newParagraph.before(paragraphDiv);
-
-        // insertion after a node example
+        // insertion after a node
         newParagraph.after(paragraphDiv);
 
         // DELETION
-        // example of removing a single element
+        //example of removing a single element
         //paragraphOneElement.remove();
 
-        // removeChild example
+        // remove child
         mainContent.removeChild(paragraphOneElement);
-
-        // MODIFICATION
-        //mainContent.firstElementChild.textContent = "Welcome Home!"
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading">Welcome to WEBD6201 - Lab 1</h1>
-        <p id="paragraphOne" class="fs-3">This is the first paragraph</p>
-        `;
 
     }
 
