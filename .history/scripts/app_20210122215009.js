@@ -84,20 +84,12 @@
                 fullName.focus();
                 fullName.select();
                 messageArea.hidden = false;
-                messageArea.textContent = "Please enter an appropriate name";
+                messageArea.textContent = "Please enter an appropriate name"
             }
             else
             {
-                messageArea.hidden = true;
+                messageArea.hidden = true
             }
-
-            let sendButton = document.getElementById("sendButton");
-            sendButton.addEventListener("click", function(event){
-
-                console.log(fullName.value);
-                console.log(contactNumber.value);
-                console.log(emailAddress.value);
-            });
 
         });
     }
